@@ -1,3 +1,6 @@
+About
+=====
+
 A fork of Squad message style by Kyle Haskins:
 http://www.adiumxtras.com/index.php?a=xtras&xtra_id=7679
 
@@ -6,8 +9,8 @@ unsure about licensing for it.
 
 Changes over the original style:
 
-* Attemped to cleanup markup a bit
 * Even simpler message styles, especially in IRC or group Jabber chat
+* Attemped to cleanup markup a bit
 
 Installation
 ============
