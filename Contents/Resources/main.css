@@ -1,0 +1,171 @@
+/*
+---------------------------------------------------------------------------
+  PROJECT: 	Adium Message Style
+
+FILE NAME: 	Squad.AdiumMessageStyle
+
+     NAME: 	Squad
+           	[http://dl.dropbox.com/u/488355/Squad.AdiumMessageStyle.zip]
+
+ DESIGNER: 	Kyle Haskins [http://www.kylehaskins.com]
+
+  CREATED: 	2010.08.17 [first local version]
+
+REVISIONS:
+
+     TODO:
+
+ BASED ON: 	Squad chat theme from http://squadedit.com
+---------------------------------------------------------------------------*/
+.clear { clear: both; }
+
+body
+{
+	margin: 4px 0 5px 0;
+	color: #393A39;
+	background-color: white;
+	font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+	font-size: 13px;
+	padding: 0px 1px 1px 1px;
+}
+
+.container.status
+{
+	background-color: #D4E9F8;
+	padding: 6px 0 6px 0;
+	color: #4C6D84;
+	font-weight: bold;
+}
+
+.container.status.offline, .container.status.away, .container.status.away_message
+{
+	background-color: #ffdbd6;
+	color: #c44d37;
+	font-weight: bold;
+}
+
+.container.status.online, .container.status.return_away
+{
+	background-color: #d7f8d3;
+	color: #57774A;
+	font-weight: bold;
+}
+
+.container.status .time
+{
+	display: block;
+	min-width: 100px;
+	text-align: right;
+	float: left;
+}
+
+.container.status .message
+{
+	padding: 0 0 0 4px;
+}
+
+.container .sender
+{
+	display: block;
+	padding: 4px 4px 0 8px;
+	overflow: hidden;
+	width: 92px;
+	height: 16px;
+	font-weight: bold;
+	text-align: right;
+	float: left;
+}
+
+.container.initial .sender
+{
+
+}
+
+.container.initial .message
+{
+
+}
+
+.container .message
+{
+	position: relative;
+}
+
+.container.next .sender
+{
+	display: none;
+}
+
+div:hover.container .message .time
+{
+	display: inline;
+}
+
+div.container .message .time
+{
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+	float: right;
+	padding: 2px;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.container.outgoing .message, .container.incoming .message
+{
+	display: block;
+	padding: 6px;
+}
+
+.container.incoming .message
+{
+	background-color: #fff;
+}
+
+.container.outgoing
+{
+	border-bottom: 1px solid #efefef;
+	background-color: #f2f2f2;
+}
+
+.container.incoming
+{
+	background-color: #fff;
+	border-bottom: 1px solid #ededed;
+}
+
+.container.status.event.IRC,
+.container.status.event.Jabber {
+    font-size:75%;
+    color:#999;
+}
+
+.container.status.event.IRC.purple,
+.container.status.event.Jabber.purple {
+    background-color:#eee;
+}
+
+
+.container.next .message, .container.initial .message
+{
+	padding-top: 6px;
+	diplay: block;
+	margin-left: 118px;
+}
+
+.context
+{
+	opacity: .4;
+}
+
+img.scaledToFitImage{ width:auto; }
+
+.message.greyed_link{
+
+}
+.container img{
+    vertical-align: top;
+}
